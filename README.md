@@ -31,3 +31,5 @@ git repository.
 
 **NOTE**: When running `nvim` at the first time, you may encounter many errors. You just
 need to restart `nvim` many times, and wait for the plugins intallation.
+
+Check [LightBoat](https://github.com/Kaiser-Yang/LightBoat) to learn how to customize.
