@@ -13,7 +13,13 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 --- @type LightBoat.Opts
-vim.g.lightboat_opts = {}
+vim.g.lightboat_opts = {
+  lsp = {
+    config = {
+      gopls = {},
+    },
+  },
+}
 require('lazy').setup({
   spec = {
     { 'Kaiser-Yang/LightBoat', import = 'lightboat.plugin' },
